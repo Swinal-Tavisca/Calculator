@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="Style.css" />
+        <script type="text/javascript" src="calculate.js"></script>
+    </head>
+    <body>
+	<section>
+        <div class="input-text">
+            <h4>CALCULATOR</h4>
+                <textarea id="text-input"></textarea>
+        </div>
+       <!-- <div class="output-text">
+                <input type="text" id="text-output-display" class="output">
+        </div> -->
+        <div>
+                <button value="9" onclick='EnterValue("9")'>9</button>
+                <button value="8" onclick='EnterValue("8")'>8</button>
+                <button value="7" onclick='EnterValue("7")'>7</button>
+                <button value="+" onclick='EnterValue("+")'>+</button>
+        </div>
+        <div>
+                <button value="6" onclick='EnterValue("6")'>6</button>
+                <button value="5" onclick='EnterValue("5")'>5</button>
+                <button value="4" onclick='EnterValue("4")'>4</button>
+                <button value="-" onclick='EnterValue("-")'>-</button>
+        </div>
+        <div>
+                <button value="3" onclick='EnterValue("3")'>3</button>
+                <button value="2" onclick='EnterValue("2")'>2</button>
+                <button value="1" onclick='EnterValue("1")'>1</button>
+                <button value="*" onclick='EnterValue("*")'>*</button>
+        </div>
+        <div class="zero">
+                <button  value="0" onclick='EnterValue("0")'>0</button>
+                
+        </div>      
+        <div> 
+				<button value="" onclick='clearValue("")'>CL</button>
+                <button value="/" onclick='EnterValue("/")'>/</button>
+                <button value="%" onclick='EnterValue("%")'>%</button>
+                <button value="=" onclick='calculateValue("=")'>=</button>
+                
+        </div>
+    </section>   
+    </body>
+</html>
